@@ -1,0 +1,8 @@
+function toggleInstructions() {
+  const steps = document.getElementById("steps");
+  if (steps.style.display === "none" || steps.style.display === "") {
+    steps.style.display = "block";
+  } else {
+    steps.style.display = "none";
+  }
+}
